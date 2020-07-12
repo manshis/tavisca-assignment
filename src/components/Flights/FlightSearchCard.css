@@ -1,0 +1,75 @@
+.flight-card {
+  padding: 7px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  line-height: 26px;
+  box-shadow: 10px 10px 21px -12px rgba(0, 0, 0, 0.75);
+  border: 1px solid #d2c8c8;
+  justify-content: center;
+}
+
+.flight-header {
+  font-weight: bolder;
+}
+
+.flight-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  line-height: 17px;
+  padding: 14px;
+}
+
+.flight-cost {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.flight-cost-details {
+  border: 1px solid #fdfbfb;
+  background: #1976d2;
+  color: white;
+  padding: 8px;
+  line-height: 16px;
+}
+
+.list-header {
+  background-color: #1976d2;
+  color: white;
+  line-height: 61px;
+  margin-bottom: 18px;
+}
+
+.actionButton {
+  box-shadow: inset 0px 1px 0px 0px #ffffff;
+  background: linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+  background-color: #ffffff;
+  border-radius: 6px;
+  border: 1px solid #dcdcdc;
+  display: inline-block;
+  cursor: pointer;
+  color: #666666;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #ffffff;
+}
+.actionButton:hover {
+  background: linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+  background-color: #f6f6f6;
+}
+.actionButton:active {
+  position: relative;
+  top: 1px;
+}
+
+.action-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 18px;
+}

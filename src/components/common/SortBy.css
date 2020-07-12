@@ -1,0 +1,11 @@
+.sort-actions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.sort-options {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
